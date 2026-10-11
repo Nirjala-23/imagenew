@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# user uploads
+static/uploads/*
+!static/uploads/.gitkeep
+
+# dataset + big generated files
+data/Images/
+data/*.txt
+models/features.pkl
+models/best.keras
+# models/best.pkl is ~72 MB. GitHub allows <100 MB, so you may commit it.
+# Uncomment the next line to keep it out of git instead:
+# models/best.pkl

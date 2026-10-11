@@ -1,0 +1,40 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+.header {
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Keeps the header at the top */
+    top: 0; /* Positioning at the top */
+    padding: 20px; /* Padding around the header */
+}
+
+/* Upload container styling */
+.upload-container {
+    text-align: center; /* Center the upload elements */
+    margin-top: 50px; /* Space from the header */
+}
+
+input[type="file"] {
+    margin-bottom: 20px; /* Space below the file input */
+}
+
+button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.2rem; /* Button font size */
+    color: white; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
